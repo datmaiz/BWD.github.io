@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href=" ../style/signin.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://images.unsplash.com/photo-1533132824464-d286d371ffe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        alt=""
+      />
+      
+      <!-- form sign in -->
+      <form action="#" id="form__signin">
+        <div class="form__title">Sign In</div>
+        <hr />
+        <div class="form__input">
+          <label for="">Username or email address <span>*</span></label>
+          <input type="text" placeholder=" " />
+          <label for="">Password <span>*</span></label>
+          <input type="password" />
+          <button class="button__login"><a href="#">Sign In</a></button>
+          <div class="form__input-end">
+            <span class="remember" id="signUp"> You have no account? </span>
+            <span class="forgot"><a href="#">Lost your password?</a></span>
+          </div>
+        </div>
+        <div class="form__login">
+          <div class="form__login-horizontal">or login with</div>
+          <button class="button__facebook">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png"
+              alt=""
+            />
+              Facebook
+          </button>
+          <button class="button__google">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png"
+              alt=""
+            />
+            Google
+          </button>
+        </div>
+      </form>
+
+      <!-- form sign up -->
+      <form action="" id="form__signup" class="form">
+        <div class="form__title">Register</div>
+        <hr />
+        <div class="form__input">
+          <label for="">Username <span>*</span></label>
+          <input type="text" />
+          <label for="">Email address <span>*</span></label>
+          <input type="email" />
+          <label for="">Password <span>*</span></label>
+          <input type="password" />
+        </div>
+        <div class="form__register">
+          <p class="form__register-notice">
+            Your personal data will be used to support your experience
+            throughout this website, to manage access to your account, and for
+            other purposes described in our privacy policy.
+          </p>
+          <button class="form__register-button register">
+            Register
+          </button>
+          <button class="form__register-button signin" id="signIn">
+            Sign In
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- script -->
+    <script src="../app/signin.js"></script>
+  </body>
+</html>
