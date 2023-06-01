@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../style/filecss.css">
+    <title>Document</title>   
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="active" href="../index.html" id="home">Home</a>
+            <a href="../web/travel.html">Travel</a>
+            <a href="../web/blog.html">Blogs</a>
+            <a href="#">About</a>
+            <a href="../web/signin.html" class="header-login-btn">Login</a>
+        </nav>
+        <div class="row">
+            <span ><ion-icon name="heart-outline"></ion-icon></span>
+            <span ><ion-icon name="cart-outline"></ion-icon></span>
+            <label for="">0.00 $</label>
+        </div>
+        <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+        <div class="navbar-after">
+            <a href="../index.html" >Home</a> 
+            <a href="../web/travel.html">Travel</a>
+            <a href="../web/blog.html">Blogs</a>
+            <a href="#">About</a>
+            <a href="#" class="header-login-btn">Login</a>
+        </div>
+    </header>
+
+
+   <div class="slide">
+      <img style="height: 300px; width: 100%; object-fit: cover;" src="../image/pic2.jpg" alt="">
+      <div class="title-slide">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+        <label for="">TRAVEL</label>
+      </div>
+   </div>
+
+
+   <section style="padding: 0; margin-top: 100px;">
+    <div class="category-box">
+      <div class="category">
+          <img src="../image/pic11.jpg" alt="">
+          <label>LƯU TRÚ</label>
+      </div>
+  
+      <div class="category">
+          <img src="../image/pic12.jpg" alt="">
+          <label>LỮ HÀNH</label>
+      </div>
+  
+      <div class="category">
+          <img src="../image/pic16.jpg" alt="">
+          <label>ẨM THỰC </label>
+      </div>
+  
+      <div class="category">
+          <img src="../image/PIC15.jpg" alt="">
+          <label>GIẢI TRÍ</label>
+      </div>
+    </div>
+ </section>
+
+
+
+
+
+
+   <section>
+    <div style="display: flex;flex-wrap: wrap;justify-content: space-between;">
+      <div class=" link-filter">
+        <div><a href="../index.html">Home</a>/ <a href="">Shop</a>/ <a href="">Other</a> <a href="Travel"></a></div>
+      </div>
+      <div style="display: flex; gap: 30px; flex-wrap: wrap;">
+            <div>
+                show <a href="">1</a> / <a href="">2</a>/ <a href="">3</a>/ <a href="">4</a>
+            </div>
+    
+            <select class="select-link" name="" id="">
+                <option value="">Default sorting</option>
+                <option value="">Sorting by populatity</option>
+                <option value="">Sorting by price: low to hight</option>
+                <option value="">Sorting by price: high to low</option>
+                <option value="">Sorting by lastest</option>
+            </select>
+      </div>
+    </div>   
+   </section>
+
+   <section style="padding-top: 0; display: flex; justify-content: center; align-items: center; ">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+        <select class="filter-link">
+          <option value="">Chọn khu vực</option>
+          <option value="">Miền Bắc</option>
+          <option value="">Miền Trung</option>
+          <option value="">Miền Nam</option>
+        </select>
+
+        <div >
+          <select class="filter-link">
+            <option value="">Chọn tỉnh/Thành phố</option>
+            <option value="">Phú Quốc</option>
+            <option value="">Nha Trang</option>
+            <option value="">Hà Nội</option>
+            <option value="">Hội An</option>
+          </select>
+        </div>
+
+        <button class="filer">Filter</button>  
+      </div>
+   </section>
+
+
+   <section>
+    <div class="homestay-title">
+        <h3>Miền Nam</h3>
+        <p>Xem thêm</p>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+           <div class="swiper-slide" style="min-width: 200px;">
+                <div class="homestay">
+                    <div>
+                        <div class="homestay-img">
+                            <img src="../image/pic1.jpg" alt="">
+                            <img class="homestay-img-after" src="../image/pic3.jpg" alt="">
+                        </div>
+                        <div class="homestay-info">
+                            <h4>OTRO Homestay</h4>
+                            <div class="homestay-connect">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <label for="">16 Phạm Viết Chánh, Q.Bình Thạnh, TP. HCM</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                                <label for="">(+84) 28 345 7654</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="globe-outline"></ion-icon>
+                                <a href="">VillageLoveHomestay.com.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        
+           
+           <div class="swiper-slide" style="min-width: 200px;">
+            <div class=" homestay">
+                <div>
+                    <div class="homestay-img">
+                        <img src="../image/pic2.jpg" alt="">
+                        <img class="homestay-img-after" src="../image/pic5.jpg" alt="">
+                    </div>
+                    <div class="homestay-info">
+                        <h4> Town House Sai Gon</h4>
+                        <div class="homestay-connect">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <label for="">373/45 Phạm Ngũ Lão, TP.HCM</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                            <label for="">(+84) 65 345 7654</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="globe-outline"></ion-icon>
+                            <a href="">looongHomestay.com.vn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+        <div class="swiper-slide" style="min-width: 200px;">
+            <div class=" homestay">
+                <div>
+                    <div class="homestay-img">
+                        <img src="../image/pic4.jpg" alt="">
+                        <img class="homestay-img-after" src="../image/pic8.jpg" alt="">
+                    </div>
+                    <div class="homestay-info">
+                        <h4>Homestay Nguyen Shack</h4>
+                        <div class="homestay-connect">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <label for="">Quốc Lộ 1A,Quận Cái Răng, Cần Thơ</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                            <label for="">(+84) 28 645 7654</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="globe-outline"></ion-icon>
+                            <a href="">santoryHomestay.com.vn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide" style="min-width: 200px;">
+                <div class=" homestay">
+                    <div>
+                        <div class="homestay-img">
+                            <img src="../image/pic5.jpg" alt="">
+                            <img class="homestay-img-after" src="../image/pic9.jpg" alt="">
+                        </div>
+                        <div class="homestay-info">
+                            <h4>The View Homestay</h4>
+                            <div class="homestay-connect">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <label for="">28/6 Trần Hưng Đạo, Sơn Phong, Hội An</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                                <label for="">(+84) 28 345 4354</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="globe-outline"></ion-icon>
+                                <a href="">theviewhomestay.com.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide" style="min-width: 200px;">
+                <div class=" homestay">
+                    <div>
+                        <div class="homestay-img">
+                            <img src="../image/pic9.jpg" alt="">
+                            <img class="homestay-img-after" src="../image/pic10.jpg" alt="">
+                        </div>
+                        <div class="homestay-info">
+                            <h4>The 1993 Homestay</h4>
+                            <div class="homestay-connect">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <label for="">57 Thích Quảng Đức, Tân An, Hội An</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                                <label for="">(+84) 28 345 7654</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="globe-outline"></ion-icon>
+                                <a href="">the1993homestay.com.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+  </div>
+   </section>
+
+  
+   <section>
+    <div class="homestay-title">
+        <h3>Miền Trung</h3>
+        <p>Xem thêm</p>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+           <div class="swiper-slide" style="min-width: 200px;">
+                <div class=" homestay">
+                    <div>
+                        <div class="homestay-img">
+                            <img src="../image/pic3.jpg" alt="">
+                            <img class="homestay-img-after" src="../image/pic4.jpg" alt="">
+                        </div>
+                        <div class="homestay-info">
+                            <h4>Village Love Homestay</h4>
+                            <div class="homestay-connect">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <label for="">Cẩm Nam, Hoi An, Việt Nam</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                                <label for="">(+84) 28 345 7654</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="globe-outline"></ion-icon>
+                                <a href="">VillageLoveHomestay.com.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        
+           
+           <div class="swiper-slide" style="min-width: 200px;">
+            <div class=" homestay">
+                <div>
+                    <div class="homestay-img">
+                        <img src="../image/pic4.jpg" alt="">
+                        <img class="homestay-img-after" src="../image/pic5.jpg" alt="">
+                    </div>
+                    <div class="homestay-info">
+                        <h4>Loongboong Homestay</h4>
+                        <div class="homestay-connect">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <label for="">Tra Que Vegetable, Cẩm Hà, Hội An</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                            <label for="">(+84) 65 345 7654</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="globe-outline"></ion-icon>
+                            <a href="">loongboongHomestay.com.vn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+        <div class="swiper-slide" style="min-width: 200px;">
+            <div class=" homestay">
+                <div>
+                    <div class="homestay-img">
+                        <img src="../image/pic6.jpg" alt="">
+                        <img class="homestay-img-after" src="../image/pic7.jpg" alt="">
+                    </div>
+                    <div class="homestay-info">
+                        <h4>Santori Hoi An Homestay</h4>
+                        <div class="homestay-connect">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <label for="">ĐX18, Cẩm Thanh, Hội An, Quảng Nam</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                            <label for="">(+84) 28 645 7654</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="globe-outline"></ion-icon>
+                            <a href="">santoryHomestay.com.vn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide" style="min-width: 200px;">
+                <div class=" homestay">
+                    <div>
+                        <div class="homestay-img">
+                            <img src="../image/pic7.jpg" alt="">
+                            <img class="homestay-img-after" src="../image/pic8.jpg" alt="">
+                        </div>
+                        <div class="homestay-info">
+                            <h4>The View Homestay</h4>
+                            <div class="homestay-connect">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <label for="">28/6 Trần Hưng Đạo, Sơn Phong, Hội An</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                                <label for="">(+84) 28 345 4354</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="globe-outline"></ion-icon>
+                                <a href="">theviewhomestay.com.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide" style="min-width: 200px;">
+                <div class=" homestay">
+                    <div>
+                        <div class="homestay-img">
+                            <img src="../image/pic9.jpg" alt="">
+                            <img class="homestay-img-after" src="../image/pic10.jpg" alt="">
+                        </div>
+                        <div class="homestay-info">
+                            <h4>The 1993 Homestay</h4>
+                            <div class="homestay-connect">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <label for="">57 Thích Quảng Đức, Tân An, Hội An</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                                <label for="">(+84) 28 345 7654</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="globe-outline"></ion-icon>
+                                <a href="">the1993homestay.com.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+  </div>
+   </section>
+
+   
+
+   <section>
+    <div class="homestay-title">
+        <h3>Miền Bắc</h3>
+        <p>Xem thêm</p>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+           <div class="swiper-slide" style="min-width: 200px;">
+                <div class=" homestay">
+                    <div>
+                        <div class="homestay-img">
+                            <img src="../image/PIC15.jpg" alt="">
+                            <img class="homestay-img-after" src="../image/pic14.jpg" alt="">
+                        </div>
+                        <div class="homestay-info">
+                            <h4>Love House Sa Pa</h4>
+                            <div class="homestay-connect">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <label for="">443 Điện Biên Phủ, SâP, Lào Cai</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                                <label for="">(+84) 28 345 7654</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="globe-outline"></ion-icon>
+                                <a href="">lovehoue.com.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        
+           
+           <div class="swiper-slide" style="min-width: 200px;">
+            <div class=" homestay">
+                <div>
+                    <div class="homestay-img">
+                        <img src="../image/pic13.jpg" alt="">
+                        <img class="homestay-img-after" src="../image/pic12.jpg" alt="">
+                    </div>
+                    <div class="homestay-info">
+                        <h4>Tả Van Gỗ homestay</h4>
+                        <div class="homestay-connect">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <label for="">8V2Q+RMR, xã Tả Van, SaPa, Lào Cai</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                            <label for="">(+84) 65 345 7654</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="globe-outline"></ion-icon>
+                            <a href="">.com.vn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+        <div class="swiper-slide" style="min-width: 200px;">
+            <div class=" homestay">
+                <div>
+                    <div class="homestay-img">
+                        <img src="../image/pic11.jpg" alt="">
+                        <img class="homestay-img-after" src="../image/pic8.jpg" alt="">
+                    </div>
+                    <div class="homestay-info">
+                        <h4>Đồi House</h4>
+                        <div class="homestay-connect">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <label for=""> VJ27+X76, Thị Trấn Mộc Châu, Sơn La</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                            <label for="">(+84) 28 645 7654</label>
+                        </div>
+                        <div class="homestay-connect">
+                            <ion-icon name="globe-outline"></ion-icon>
+                            <a href="">.com.vn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide" style="min-width: 200px;">
+                <div class=" homestay">
+                    <div>
+                        <div class="homestay-img">
+                            <img src="../image/pic7.jpg" alt="">
+                            <img class="homestay-img-after" src="../image/pic6.jpg" alt="">
+                        </div>
+                        <div class="homestay-info">
+                            <h4>Nhà Ta Homestay Mộc Châu</h4>
+                            <div class="homestay-connect">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <label for="">Ngõ 53 Trần Huy Liệu,  Mộc Châu, Sơn La</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                                <label for="">(+84) 28 345 4354</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="globe-outline"></ion-icon>
+                                <a href="">mocchaumestay.com.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide" style="min-width: 200px;">
+                <div class=" homestay">
+                    <div>
+                        <div class="homestay-img">
+                            <img src="../image/pic5.jpg" alt="">
+                            <img class="homestay-img-after" src="../image/pic4.jpg" alt="">
+                        </div>
+                        <div class="homestay-info">
+                            <h4>Homestay Bơ house</h4>
+                            <div class="homestay-connect">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <label for="">Xóm 2 Tiểu khu cơ quan, Mộc Châu, Sơn La</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                                <label for="">(+84) 28 345 7654</label>
+                            </div>
+                            <div class="homestay-connect">
+                                <ion-icon name="globe-outline"></ion-icon>
+                                <a href="">bohomestay.com.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+  </div>
+   </section>
+
+   <footer style=" margin: 100px 0 100px 0;">
+    <div class="footer">
+        <div class="footer-box" >
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black; font-size: 25px;">Lit.</p>
+            <p>  We are always there when you need us</p>
+            <p><ion-icon name="send-outline"></ion-icon> 451 Wall Street, UK, London</p>
+            <p><ion-icon name="phone-portrait-outline"></ion-icon> Phone: (064) 332-1233</p>
+            <p><ion-icon name="mail-outline"></ion-icon> Fax: (099) 453-1357</p>
+        </div>
+    
+        <div class="footer-box">
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">RECENT POST</p>
+            <div style="display: flex; gap: 20px; padding: 20px; border-bottom: 1px solid gray ;">
+                <img style="height: 80px; width: 80px; object-fit: cover; border-radius: 5px; " src="../image/pic10.jpg" alt="">
+                <div>
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">A companion for extra sleeping</p>
+                    <p>July 23, 2016 <span style="margin-left: 10px;">1 comment</span></p>
+                </div>
+            </div>
+    
+            <div style="display: flex; gap: 20px; padding: 20px;">
+                <img style="height: 80px; width: 80px; object-fit: cover; border-radius: 5px; " src="../image/pic1.jpg" alt="">
+                <div>
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">Outdoor seating collection inspiration</p>
+                    <p>July 23, 2016 <span style="margin-left: 10px;">4 comment</span></p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-box">
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">OUR STORES</p>
+            <p>Las Vegas</p>
+            <p>Chicago</p>
+            <p>Los Angeles</p>
+            <p>Edinburgh</p>
+            <p>London SF</p>
+            <p>New York</p>
+        </div>
+    
+        <div class="footer-box">
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">USEFUL LINKS</p>
+            <p>Our Sitemap</p>
+            <p>Latest News</p>
+            <p>Contact Us</p>
+            <p>Terms & Conditions</p>
+            <p>Returns</p>
+            <p>Privacy Policy</p>
+        </div>
+    
+        <div class="footer-box">
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">FOOTER MENU</p>
+            <p>Latest News</p>
+            <p>Contact Us</p>
+            <p>Woman Dress</p>
+            <p>New Collection</p>
+            <p>Instagram profile</p>
+            <p>Privacy Policy</p>
+        </div>
+    </div>
+</footer>
+
+
+
+  
+   
+
+
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script src="../app/script.js"></script>
+</body>
+</html>

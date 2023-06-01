@@ -10,6 +10,3 @@ signInButton.addEventListener('click', () => {
     formSignIn.classList.remove('move');
     formSignUp.classList.remove('back');
 })
-signUp.onclick = function () {
-    
-}
